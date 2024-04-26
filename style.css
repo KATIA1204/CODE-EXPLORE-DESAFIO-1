@@ -1,0 +1,166 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    background-color: #eeb7dc;
+    width           : 100%;
+    height          : 100vh;
+    cursor          : pointer;
+}
+
+header {
+    padding        : 5px 0 5px;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    flex-wrap      : wrap;
+    border-bottom  : 2px solid #41088be5;
+}
+
+header ul {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    gap            : 2rem;
+    list-style     : none;
+    margin         : auto 5rem;
+    font-size      : 20px;
+    font-weight    : 400;
+
+}
+
+
+header a {
+    display: block;
+    color  : #a248c5;
+
+}
+
+
+header nav {
+    margin-top: 25px;
+}
+
+nav {
+    height         : 8vh;
+    width          : 100%;
+    margin         : 0 auto;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.logo {
+    display        : inline-block;
+    justify-content: center;
+    align-items    : center;
+    position       : absolute;
+    top            : 15%;
+    left           : 55%;
+
+    object-fit: contain;
+
+    overflow: hidden;
+
+}
+
+
+
+.nome {
+    color      : #a248c5;
+    margin     : 15px;
+    margin-left: 20px;
+    font-size  : 30px;
+    font-weight: 700;
+}
+
+.container {
+    font-size  : 25px;
+    font-weight: 600;
+    color      : #a248c5;
+    margin-top : 20PX;
+
+}
+
+h1 {
+    font-size  : 32px;
+    font-weight: 800;
+    color      : #a248c5;
+}
+
+
+p {
+    font-size  : 20px;
+    font-weight: 700;
+    color      : #a248c5;
+}
+
+.git {
+    display         : inline-block;
+    font-size       : 30px;
+    font-weight     : 200;
+    outline         : none;
+    border          : none;
+    border-radius   : 15px;
+    background-color: #c97ab8;
+    margin          : 8px;
+    padding         : 3px;
+    border-bottom   : 2px solid #571649;
+    opacity         : 0.9;
+    height          : 48px;
+    cursor          : pointer;
+
+
+}
+
+
+
+.linkedin {
+    display         : inline-block;
+    font-size       : 30px;
+    font-weight     : 200;
+    outline         : none;
+    border          : none;
+    border-radius   : 15px;
+    background-color: #c97ab8;
+    margin          : 8px;
+    padding         : 3px;
+    border-bottom   : 2px solid #571649;
+    opacity         : 0.9;
+    height          : 48px;
+    cursor          : pointer;
+
+
+}
+.buttons{
+    margin-top: 30px;
+   margin-left: 25px;
+}
+
+.buttons :hover {
+    color           : #ffffff;
+    background-color: #4e0936
+}
+
+footer {
+    color         : #a248c5;
+    font-size     : 20px;
+    font-weight   : 700;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    padding       : 15px 40px;
+    margin-top    : 30px;
+    background-color: #c088ad;
+
+
+}
+
+section {
+    margin-left: 20px;
+}
